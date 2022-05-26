@@ -1,0 +1,18 @@
+.song {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  // background-color: lightblue;
+  img {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    clip-path: circle();
+    z-index: -1;
+  }
+}
+@media (max-width: $min-screen) {
+}
