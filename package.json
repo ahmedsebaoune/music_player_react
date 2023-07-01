@@ -2,6 +2,9 @@
   "name": "react-learning",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object" :"*" 
+  },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
