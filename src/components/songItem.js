@@ -16,7 +16,7 @@ const SongItem = ({
   const sildeRef = useRef(null);
   const itemRef = useRef(null);
   useEffect(() => {
-    if (id == currentSong.id) {
+    if (id === currentSong.id) {
       const valWidth = Math.round(
         (songTime.currentTime * 100) / songTime.duration
       );
