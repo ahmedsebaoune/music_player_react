@@ -3,38 +3,38 @@ import { v4 as uuidv4 } from "uuid";
 const data = () => {
   return [
     {
-      name: "Memories Pt.1",
-      artist: "Ruck P",
+      name: "Al-Fatihah",
+      artist: "Ali Jabeer",
       cover:
         "https://chillhop.com/wp-content/uploads/2021/07/034f52eeaeceb144cca67b0930d705d32fc39e37-1024x1024.jpg",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=21659",
+      audio: "https://server11.mp3quran.net/a_jbr/001.mp3",
       active: true,
       id: uuidv4(),
     },
     {
-      name: "Cabaña",
-      artist: "Juan Rios",
+      name: "Yusuf",
+      artist: "Ali Jabeer",
       cover:
         "https://chillhop.com/wp-content/uploads/2021/07/4163ebb931e06d4ee8eb184295c0246d4a5055f7-1024x1024.jpg",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=21647",
+      audio: "https://server11.mp3quran.net/a_jbr/012.mp3",
       active: false,
       id: uuidv4(),
     },
     {
-      name: "Viatecture",
-      artist: "Leavv, Makzo",
+      name: "Al-Kahf",
+      artist: "Ali Jabeer",
       cover:
         "https://chillhop.com/wp-content/uploads/2021/06/23b2ff959731b56ea8545828b462311e8b1a2bcc-1024x1024.jpg",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=20119",
+      audio: "https://server11.mp3quran.net/a_jbr/018.mp3",
       active: false,
       id: uuidv4(),
     },
     {
-      name: "LuvnYou",
-      artist: "Chillhop Music",
+      name: "Luqman",
+      artist: "Ali Jabeer",
       cover:
         "https://chillhop.com/wp-content/uploads/2021/07/875b9624506ae8d05750b9e4ab4579abb1fe3e16-1024x1024.jpg",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=21784",
+      audio: "https://server11.mp3quran.net/a_jbr/031.mp3",
       active: false,
       id: uuidv4(),
     },
@@ -80,19 +80,16 @@ const data = () => {
     {
       name: "Montauk Paddling",
       artist: "auv",
-      cover:
-        "https://i.scdn.co/image/ab67616d0000b2739104059647f4b827859943cf",
-      audio:
-        "https://mp3.chillhop.com/serve.php/?mp3=34372",
+      cover: "https://i.scdn.co/image/ab67616d0000b2739104059647f4b827859943cf",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=34372",
       active: false,
       id: uuidv4(),
-    },{
+    },
+    {
       name: "Caramel",
       artist: "Leavy",
-      cover:
-        "https://mp3.chillhop.com/serve.php/?mp3=34162",
-      audio:
-        "https://mp3.chillhop.com/serve.php/?mp3=34372",
+      cover: "https://mp3.chillhop.com/serve.php/?mp3=34162",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=34372",
       active: false,
       id: uuidv4(),
     },
