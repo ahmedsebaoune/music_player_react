@@ -3,9 +3,11 @@ import React from "react";
 const Song = ({ currentSong }) => {
   return (
     <div className="song">
-      <img src={currentSong.cover} alt="imgae of the song" />
-      <h3>{currentSong.name}</h3>
-      <p>{currentSong.artist}</p>
+      <div className="image"><div className="back">{currentSong.cover}</div></div>
+      <div className="text">
+        <h3>{currentSong.name}</h3>
+        <p>{currentSong.artist}</p>
+      </div>
     </div>
   );
 };

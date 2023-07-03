@@ -9,13 +9,13 @@ body {
 }
 body {
   align-items: center;
-  background-color: #fff8e7;
   color: #545454;
+  background-size: cover;
   position: relative;
 }
 body:before {
-  background: rgb(250,250,250);
-  background: linear-gradient(300deg, rgba(250,250,250,1) 0%, rgba(255,188,46,1) 100%);   content: '';
+//  background: rgb(250,250,250);
+//  background: linear-gradient(300deg, rgba(250,250,250,1) 0%, rgba(255,188,46,1) 100%);   content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -24,7 +24,6 @@ body:before {
   z-index: -1;
 }
 body:after {
-  background: no-repeat 25vw 40vh / 30vw url("https://assets.codepen.io/518555/blobSolid.svg");
   content: '';
   height: 100%;
   left: 0;

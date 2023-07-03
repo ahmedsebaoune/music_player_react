@@ -4,8 +4,7 @@
   display: grid;
   grid-auto-rows: 6% 60% 24%;
   height: 100vh;
-
-  transition: 1s ease-in-out;
+  transition: 1s;
   nav button {
     display: flex;
     justify-content: space-between;

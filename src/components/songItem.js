@@ -54,7 +54,7 @@ const SongItem = ({
     >
       <div ref={sildeRef} className="silde"></div>
       <div className="img-cont">
-        <img src={song.cover} alt="song" />
+        <div className="back">{song.cover}</div>
       </div>
       <div className="text">
         <h3>{song.name}</h3>

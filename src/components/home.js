@@ -21,8 +21,9 @@ function Home({
 }) {
   return (
     <div className={`home ${libraryShow ? "" : "homeFullWidth"}`}>
+      <div className="main">
       <nav className="nav">
-        <h1>Waves</h1>
+        <h1>Qur'aan</h1>
         <button
           onClick={() => {
             setLibraryShow(!libraryShow);
@@ -44,6 +45,7 @@ function Home({
         isPlaying={isPlaying}
         currentSong={currentSong}
       />
+      </div>
     </div>
   );
 }
